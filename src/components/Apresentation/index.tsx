@@ -4,7 +4,7 @@ import {
     LogoImg,
     Texto,
     ContainerButton,
-    Button 
+    Button
 } from './styles';
 
 import logoBranco from '../../assets/Logo ToT - Branco.png';
@@ -13,13 +13,19 @@ const Apresentation: React.FC = () => {
     return (
         <Container>
            <LogoImg src={logoBranco}/>
-               <Texto>
+
+            <Texto>
                 Texto sobre o ToT
-               </Texto>
-               <ContainerButton>
+            </Texto>
+
+            <ContainerButton>
+                <a href="#content">
                 <Button>Saiba +</Button>
-                <Button>Contato</Button>
-               </ContainerButton> 
+                </a>
+                <a href="#contact">
+                    <Button>Contato</Button>
+                </a>
+            </ContainerButton> 
         </Container>
     );
 }

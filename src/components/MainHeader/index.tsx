@@ -11,18 +11,20 @@ import iconHeader from '../../assets/iconHeader.png';
 const MainHeader: React.FC = () => {
     return (
         <Container>
-            <LogImg src={iconHeader}/>
+            <MenuItemLink href="#">
+                <LogImg src={iconHeader}/>
+            </MenuItemLink>
 
             <ContainerMenu>
-                <MenuItemLink href="#">
+                <MenuItemLink href="#content">
                     Sobre
                 </MenuItemLink>
 
-                <MenuItemLink href="#">
+                <MenuItemLink href="#staff">
                     Equipe
                 </MenuItemLink>
 
-                <MenuItemLink href="#">
+                <MenuItemLink href="#contact">
                     Contato
                 </MenuItemLink>
             </ContainerMenu>

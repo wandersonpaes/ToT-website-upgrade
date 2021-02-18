@@ -3,7 +3,7 @@ import { Container } from './styles';
 
 const Contact: React.FC = () => {
     return (
-        <Container>
+        <Container id="contact">
             
         </Container>
     );

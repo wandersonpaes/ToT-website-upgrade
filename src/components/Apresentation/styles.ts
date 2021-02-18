@@ -33,4 +33,20 @@ export const ContainerButton = styled.div`
 
 export const Button = styled.button`
     margin-right: 15px;
+
+    text-decoration: none;
+    border-radius: 5px;
+    width:100px;
+    height:50px;
+    font-size:15px;
+
+    cursor: pointer;
+    transition: all .3s;
+
+    position: relative;
+
+    &:hover {
+        opacity: .8;
+        transform: translateX(2px);
+    }
 `;

@@ -28,5 +28,17 @@ export const ContainerMenu = styled.nav`
 `;
 
 export const MenuItemLink = styled.a`
-    margin-right: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+
+    cursor: pointer;
+    transition: all .3s;
+
+    position: relative;
+
+    &:hover {
+        opacity: .8;
+        transform: translateX(5px);
+    }
 `;
