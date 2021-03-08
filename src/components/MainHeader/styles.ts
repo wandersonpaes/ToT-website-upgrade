@@ -4,7 +4,7 @@ export const Container = styled.div`
     grid-area: MH;
 
     width: 100vw;
-    height: 70px;
+    height: 80px;
     position: fixed;
 
     background-color: white;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 `;
 
 export const LogImg = styled.img`
-    margin-left: 10px;
+    margin-left: 30px;
 `;
 
 export const ContainerMenu = styled.nav`
